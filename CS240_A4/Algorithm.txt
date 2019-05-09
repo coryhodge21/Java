@@ -1,0 +1,29 @@
+
+        //Display options
+             Load Student
+            Print Stack
+            exit program
+
+	use switch case to change between options
+
+        Case 1: //LOAD Students: (read list of students from text file)
+
+            -create reader
+            -create buffered reader
+
+            //open file
+                >check for exceptions
+
+             //LOOP until file is empty
+                -create Student object
+                -fill each data member
+                -push object onto stack
+
+        Case 2: //Print Stack Option
+            -LOOP until Stack empty
+             -pop Student from stack
+             -Display Student info
+
+
+        Case 3: //exit program
+	    - use system exit to end program

@@ -1,0 +1,49 @@
+* Honor Pledge
+
+*6 class’ and txt file
+
+Parent Employee
+Children : all Jobs
+
+Parent:
+	General info + hours worked
+	Hours worked is same for all employees
+
+Children:
+	hourly Rate (Auto Fill)
+	paycheck
+
+Step1:
+
+	option to exit program (Sys.exit)
+	Load objects to array from file
+		type cast / switch objects based off of job code (1,2,3,4) from file input
+		index operations and assign Object to an empty spot in the array
+
+Step2:
+	Display Options
+	Switch Case user from input
+	OPTIONS: print, Update Company Hours Worked, Calculate Paycheck, exit program(sys.exit)
+
+Print:
+	check array at current index for job code to determine TypeCast
+	Typecast temp object and take on values of current array index
+	display results
+	repeat for entire array
+
+Hours:
+	Driver Variable
+	Scan from user
+	trip flag to allow paycheck calculation
+
+Paycheck:
+
+	Assignment Specific: prevent calculating paycheck with 0 hours, flag Hours Input Option
+		
+	remains 0 (AutoFill)
+	Cycle array and change hours of objects
+	Child Method multiply Rate by Hours
+
+Exit:
+	Sys.Exit 
+	
